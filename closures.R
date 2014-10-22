@@ -1,7 +1,8 @@
 
 makeMean <- function(x = numeric()) {
-message("BOOAOOOXOOAOOB")
-##print(x)
+## flag which fn applied  
+  message("BOOAOOOXOOAOOB")
+
 m <- NULL
 set <- function(y) {
 x <<- y
@@ -15,6 +16,7 @@ setmean = setmean,
 getmean = getmean)
 }
 cachemean <- function(x, ...) {
+## flag which fn applied  
 message("XOOZOOOBOOZOOX")  
 m <- x$getmean()
 if(!is.null(m)) {
