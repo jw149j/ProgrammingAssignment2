@@ -1,3 +1,9 @@
+## Please Note:
+I have two account names for my GitHub repos - jw149j and JonMWilkes
+Although all work for this programming assessment was done in jw149j, my second
+'push' was credited to the second (I don't know why).
+ 
+
 ### Introduction
 
 This second programming assignment will require you to write an R
