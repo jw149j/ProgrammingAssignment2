@@ -2,12 +2,12 @@
 ## These functions support matrix inversion, storing the result of matrix
 ## inversions to be returned in subsequent calls for the inverse to a given
 ## matrix.
-###############################################################################
-###############################################################################
+################################################################################
+################################################################################
 ## makeCacheMatrix  - creates an object containing a list of functions to set 
 ## and get the input matrix and functions to calculate the inverse and to return
 ## the inverse matrix.
-###############################################################################
+################################################################################
 
 makeCacheMatrix <- function(x = matrix()) {
 # set the stored inverse to NULL
